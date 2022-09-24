@@ -2,14 +2,14 @@
 
 int main ()
 {
-	double a, b, media;
+	double a, b, teste;
 	
 	scanf("%lf", &a);
 	scanf("%lf", &b);
 	
-	media = ((a*3.5)+(b*7.5))/11;
+	teste = ((a*3.5)+(b*7.5))/11;
 	
-	printf("MEDIA = %.5lf\n", media);
+	printf("teste = %.5lf\n", teste);
 	
 	return 0;
 }
